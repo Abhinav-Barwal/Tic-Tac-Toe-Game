@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hding {
+    color: white;
+}
+
+body {
+    background-color: #253666;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;                                                  /* 70vh(viewport height) means 70% part of our page is always given to our container.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;                                                /* 1vmin is the 1% of vh(viewport height) smaller dimension.*/
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;                                                  /* gap is used to create a 'gap' between div.*/
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.9);                       /* box-shadow is used to apply the shadow of box you created.*/
+    font-size: 8vmin;
+    color: #a1130b;
+    background-color: #4b0c39; 
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #0f0f0d;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.9);
+}
+
+#new-btn {
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #0f0f0d;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.9);
+    margin-top: 7px;   
+}
+
+#msg {
+    color: rgb(211, 194, 194);
+    font-size: 5vmin;
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
